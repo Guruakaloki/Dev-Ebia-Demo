@@ -1,0 +1,17 @@
+{
+  "version": "2.0",
+  "functionTimeout": "00:05:00",
+  "extensions": {
+    "cosmosDB": {},
+    "eventHubs": {},
+    "http": {
+      "routePrefix": "api",
+      "maxConcurrentRequests": 500,
+      "maxOutstandingRequests": 1500
+    },
+    "queues": {},
+    "sendGrid": {},
+    "serviceBus": {},
+    "durableTask": {}
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions-1.0.19",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "httpTrigger",
+      "route": "notificationsetting/{id}",
+      "methods": [
+        "get",
+        "post"
+      ],
+      "authLevel": "function",
+      "name": "req"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "../bin/DEV-EBIA-FUNCTIONS.dll",
+  "entryPoint": "DEVEBIAFUNCTIONS.NotificationSetting.RunAsync"
+}
